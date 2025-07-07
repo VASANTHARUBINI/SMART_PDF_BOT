@@ -19,7 +19,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Streamlit setup
 st.set_page_config(page_title="PDF-BOT Q&A", page_icon="📄", layout="centered")
-st.markdown("<h2 style='text-align: center;'>✨AI POWERED-PDF BOT(Analytics + Q&A)✨</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>✨AI BASED-PDF BOT(Analytics + Q&A)✨</h2>", unsafe_allow_html=True)
 st.caption("Upload multiple PDFs and ask questions, summarize, extract points or compare them! ")
 
 # Welcome message
