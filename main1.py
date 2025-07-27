@@ -25,7 +25,7 @@ st.caption("Upload multiple PDFs and ask questions, summarize, extract points or
 # Welcome message
 if "welcomed" not in st.session_state:
     st.session_state.welcomed = True
-    st.info(" Upload PDFs and ask anything like 'Summarize this document' or 'Compare the PDFs'.")
+    
 
 # Upload PDFs
 pdf_files = st.file_uploader("📄 Upload your PDFs", type=["pdf"], accept_multiple_files=True)
